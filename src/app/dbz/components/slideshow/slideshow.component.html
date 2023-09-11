@@ -1,0 +1,3 @@
+<div class="container" *ngFor="let image of images; let i = index" [ngClass]="getImageClasses(i)" >
+	<img class="img-fluid" [src]="image" alt="">
+</div>
